@@ -1,0 +1,68 @@
+[26-Jun-2019 12:46:53 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:46:53 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:48:00 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:48:11 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:49:27 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:50:31 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:55:24 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:55:37 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:55:47 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:56:21 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:59:07 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 12:59:07 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:13:52 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:21:19 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:21:19 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:21:29 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:29:58 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:31:53 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:45:30 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:45:30 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 13:47:39 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:07:18 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:07:18 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:08:01 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:12:22 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:31:27 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:31:28 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:31:45 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:32:04 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 14:34:26 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:19:05 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:28:16 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:28:25 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:36:19 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:42:53 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:43:01 UTC] Slim Application Error:
+Type: Error
+Message: Class 'Api\Controller\ImageController' not found
+File: /home/khalid/work/slim/api/dependencies.php
+Line: 9
+Trace: #0 /home/khalid/work/slim/vendor/pimple/pimple/src/Pimple/Container.php(118): {closure}(Object(Slim\Container))
+#1 /home/khalid/work/slim/vendor/slim/slim/Slim/Container.php(123): Pimple\Container->offsetGet('ImageController')
+#2 /home/khalid/work/slim/vendor/slim/slim/Slim/CallableResolver.php(86): Slim\Container->get('ImageController')
+#3 /home/khalid/work/slim/vendor/slim/slim/Slim/CallableResolver.php(61): Slim\CallableResolver->resolveCallable('ImageController', 'imageCheckActio...')
+#4 /home/khalid/work/slim/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('ImageController...')
+#5 /home/khalid/work/slim/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('ImageController...')
+#6 /home/khalid/work/slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/khalid/work/slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/khalid/work/slim/vendor/slim/slim/Slim/App.php(519): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/khalid/work/slim/vendor/tuupola/callable-handler/src/CallableHandler.php(51): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/khalid/work/slim/vendor/tuupola/slim-basic-auth/src/HttpBasicAuthentication.php(158): Tuupola\Middleware\CallableHandler->handle(Object(Slim\Http\Request))
+#11 /home/khalid/work/slim/vendor/tuupola/callable-handler/src/DoublePassTrait.php(47): Tuupola\Middleware\HttpBasicAuthentication->process(Object(Slim\Http\Request), Object(Tuupola\Middleware\CallableHandler))
+#12 [internal function]: Tuupola\Middleware\HttpBasicAuthentication->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#13 /home/khalid/work/slim/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Tuupola\Middleware\HttpBasicAuthentication), Array)
+#14 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#15 /home/khalid/work/slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\App))
+#16 /home/khalid/work/slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#17 /home/khalid/work/slim/vendor/slim/slim/Slim/App.php(410): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#18 /home/khalid/work/slim/vendor/slim/slim/Slim/App.php(318): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#19 /home/khalid/work/slim/public/index.php(36): Slim\App->run()
+#20 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[26-Jun-2019 15:50:56 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:59:56 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 15:59:56 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 16:00:22 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0
+[26-Jun-2019 16:00:29 UTC] PHP Warning:  Module 'mongodb' already loaded in Unknown on line 0

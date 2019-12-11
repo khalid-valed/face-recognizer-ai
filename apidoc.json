@@ -1,0 +1,8 @@
+{
+  "name": "Payment system",
+  "version": "0.1.0",
+  "description": "Api system for taxi and others",
+  "title": "Api docs for khalid",
+  "url" : "https://api.github.com/v1",
+  "sampleUrl":" http://localhost"
+}
